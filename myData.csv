@@ -1,13 +1,4 @@
 Timestamp,UID,Time,Name,Target,Info,State,Version
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
 3/2/2018 22:49:34,Windows-Chrome-2943400709246975,1520052574766,keydown,input#event-name.title.col-md-12,"{""which"":16}",,A
 3/2/2018 22:49:34,Windows-Chrome-2943400709246975,1520052574980,keydown,input#event-name.title.col-md-12,"{""which"":82}",,A
 3/2/2018 22:49:35,Windows-Chrome-2943400709246975,1520052575545,keydown,input#event-name.title.col-md-12,"{""which"":72}",,A
