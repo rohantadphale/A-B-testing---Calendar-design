@@ -110,8 +110,8 @@ def plotGraphs(events_A, delta_A, events_B, delta_B):
 	n1 = numOfUsers(df1)
 	n2 = numOfUsers(df2)
 	trace1 = go.Bar(
-		x=["Number of Users", "Total Events Created (/10)", "Events/10m", "Total Time Spent On Design (min) (/10)"],
-		y=[n1, events_A/10, (events_A*600)/delta_A, delta_A/600],
+		x=["Number of Users", "Total Events Created (/10)", "Average events per user", "Events/10m", "Total Time Spent On Design (min) (/10)"],
+		y=[n1, events_A/10, events_A/n1, (events_A*600)/delta_A, delta_A/600],
 		name='Design A',
 		marker=dict(
 			color='rgb(55, 83, 109)'
@@ -119,8 +119,8 @@ def plotGraphs(events_A, delta_A, events_B, delta_B):
 	)
 
 	trace2 = go.Bar(
-		x=["Number of Users", "Total Events Created (/10)", "Events/10m", "Total Time Spent On Design (min) (/10)"],
-		y=[n2, events_B/10, (events_B*6000)/delta_B, delta_B/60000],
+		x=["Number of Users", "Total Events Created (/10)", "Average events per user", "Events/10m", "Total Time Spent On Design (min) (/10)"],
+		y=[n2, events_B/10, events_B/n2, (events_B*6000)/delta_B, delta_B/60000],
 		name='Design B',
 		marker=dict(
 			color='rgb(26, 118, 255)'
